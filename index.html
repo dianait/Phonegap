@@ -39,25 +39,26 @@
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 
     <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <title>Hello World</title>
+    <title>Piedra,papel o tijeras</title>
 </head>
 
 <body>
     <header>
-   <img src="img/ppt_banner.png" />
+     <img src="img/ppt_banner.png" />
    </header>
       <canvas id="canvas_game">
           </canvas>
-          <button id="up"><img class="boton" src="img/up.png" /></button>
-          <button id="down"><img  class="boton" src="img/down.png" /></button>
-          <button id="left"><img  class="boton" src="img/left.png" /></button>
-          <button id="right"><img  class="boton" src="img/right.png" /></button>
+          <button id="up" onclick="dibujapunto(0,-5);"><img class="boton" src="img/up2.png" /></button>
+          <button id="down" onclick="dibujapunto(0,5);"><img  class="boton" src="img/down.png" /></button>
+          <button id="left" onclick="dibujapunto(-5,0);"><img  class="boton" src="img/left.png" /></button>
+          <button id="right" onclick="dibujapunto(5,0);"><img  class="boton" src="img/right.png" /></button>
  
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript">
         app.initialize();
     </script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>

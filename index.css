@@ -1,0 +1,32 @@
+/* body {
+    width: 50%;
+    margin: 0 auto;
+} */
+
+#canvas_game {
+        border: 2px solid black;
+        height: 300px;
+        width: 350px;
+       
+}
+
+header img {
+    display:block;
+    width: 350px;
+}
+
+.boton {
+    width:50px;
+
+}
+
+button{
+    width:70px;
+    height:50px;
+}
+
+input {
+    display:block;
+}
+
+   
